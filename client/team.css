@@ -1,0 +1,11 @@
+.card{
+    margin: 50px auto;
+    box-shadow: 3px 3px 5px 6px #ccc;
+    font-family: courier new, courier, mono;
+}
+
+.team h1{
+    text-align: center;
+    margin: 40px auto;
+    font-family: courier new, courier, mono;
+}

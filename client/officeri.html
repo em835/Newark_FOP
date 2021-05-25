@@ -1,0 +1,150 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+    <title>Home</title>
+    <link rel="stylesheet" href="styles.css" />
+
+    
+ 
+    
+  </head>
+
+  <body>
+    <header>
+      <h1></h1>
+
+      <ul>
+        <li><a class="nav-link" href="index.html">Home</a></li>
+        
+        <li><a class="nav-link" onclick="logout()" href="#">Logout</a></li>
+      </ul>
+    </header>
+
+    <div id="my-body">
+      <div class="jumbotron" >
+        <h2 id="username"></h2>
+        <p>To Newark`s Fraternal Police Order Officer login portial   </p>
+        <div>
+ 
+          <p>
+            
+          </p>
+
+        </div>
+      </div>
+  
+
+      <section class="d-flex">
+        <div class="section1">
+          <div class="info">
+
+
+            <h3>Please Upload Required Documents    </h3>
+
+            <form id="member-form" name="member-form">
+              <div class="file">
+                <label>Front of Drivers License:</label>
+                <input
+                  onchange="handleFileSelect('img1', event)"
+                  type="file"
+                  name="fileToUpload"
+                  id="fileToUpload"
+                />
+              </div>
+      
+              <div class="file">
+                <label>Rear of Drivers License:</label>
+                <input
+                  onchange="handleFileSelect('img2', event)"
+                  type="file"
+                  name="fileToUpload"
+                  id="fileToUpload"
+                />
+              </div>
+      
+              
+      
+              <div class="file">
+                <label>Agreement Form:</label>
+                <input
+                  onchange="handleFileSelect('img5', event)"
+                  type="file"
+                  name="fileToUpload"
+                />
+              </div>
+      
+              <input
+                id="member-submit"
+                type="submit"
+                value="Upload Image"
+                name="submit"
+              />
+            </form>
+          </div>
+
+        </div>
+        
+        <div class="section2">
+          <img href="index.html"  class=logo src="assets\images\images\Meettheteam\plogo.png" width="110" height="130">
+          <img href="index.html"  class=logo src="assets\images\images\MISC Images\seal.png" width="130" height="130">
+          <img href="index.html"  class=logo src="\client\images\MISC Images\FOP.jpg" width="140" height="130">
+          <div class="about">
+
+            <h5>About Membership </h5>
+            <p>
+              All forms can be found bellow  <br>Please upload all required documents <br>
+            After Submission please logout <br>
+            <h5>Questions</h5> 
+          Contact Manger  Bobby K <br>    Tel: 973-353-9754 <br>Fax: 973-353-9755 </p>
+          </div>
+          <div class="archives">
+            <h5>Download Form Here</h5>
+            <ul>
+              <a href="assets/docs/Agreement.pdf" download>Agreement form</a><br>
+
+            </ul>
+          </div>
+        </div>
+      </section>
+    </div>
+   
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+      crossorigin="anonymous"
+    ></script>
+    <!-- JavaScript -->
+    <script src="script/officer.js"></script>
+    <script src="./script/main.js"></script>
+
+   
+  </body>
+
+</html>

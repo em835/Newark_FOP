@@ -1,0 +1,44 @@
+.contact-section{
+  
+  justify-content: space-evenly;
+  padding: 30px;
+  font-family: courier new, courier, mono;
+}
+
+.contact-details ul{
+  list-style-type: none;
+  padding: 20px;
+  font-family: courier new, courier, mono;
+  text-align: center;
+}
+
+form{
+  background: transparent;
+  border:none;
+  outline: none;
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .contact-section{
+   flex-direction: column;
+   font-family: courier new, courier, mono;
+   text-align: center;
+  }
+  .body{
+    text-align: center;
+    font-family: courier new, courier, mono;
+  }
+
+}
+.bottom_navbar{
+  position:absolute;
+  left:40%;
+  word-spacing: 0.5in;
+  padding-top:20px ;
+  padding-bottom: 50px;
+  
+  }
+  .drive {
+    border-bottom: 1px solid gray;
+    }

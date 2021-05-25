@@ -1,0 +1,32 @@
+.contact-section{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    font-family: courier new, courier, mono;
+  }
+  
+  .contact-details ul{
+    list-style-type: none;
+    padding: 20px;
+    background-color: #F7F7F9;
+    font-family: courier new, courier, mono;
+  }
+  
+  form{
+    padding: 20px;
+    background-color: #F7F7F9;
+    font-family: courier new, courier, mono;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .contact-section{
+     flex-direction: column;
+     font-family: courier new, courier, mono;
+     text-align: center;
+    }
+    .body{
+      text-align: center;
+      font-family: courier new, courier, mono;
+    }
+  }
+  

@@ -1,0 +1,159 @@
+body{
+  padding: 2% 10%;
+  font-family: "Times New Roman", Times, serif;;
+}
+
+header ul {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  font-family: "Times New Roman", Times, serif;;
+  
+}
+
+
+
+
+
+header h1 {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;;
+    font-size: 2.25rem;
+    font-weight: bold;
+    margin: 20px;
+    border-bottom: 1px solid #6c757d;
+    padding-bottom: 1.2rem;
+    text-decoration: underline;
+}
+
+header a {
+  color: #6c757d;
+  font-size: 17px;
+}
+
+.jumbotron h1{
+  font-size: 2.5rem;
+  font-style: italic;
+ padding: 5%;
+}
+
+.jumbotron{
+
+  background-color: black;
+  color: white;
+
+}
+
+
+.jumbotron a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.card1{
+  margin-right: 20px;
+}
+
+
+
+.section1 {
+  margin-right: 12rem;
+}
+
+section #fh {
+border-bottom: 1px solid grey;
+padding-bottom: 1.2rem;
+
+}
+
+.about{
+  background-color: #F8F9FA;
+  padding: 10px;
+
+}
+
+.about h5{
+  font-style: italic;
+}
+
+.section2 div{
+  margin: 20px;
+}
+
+.section2 a{
+  text-decoration: underline;
+}
+
+#auth{
+  position: absolute;
+  top: 6%;
+  right: 5%;
+ 
+}
+
+#auth button{
+  color: #6c757d;;
+}
+
+@media only screen and (max-width: 600px) {
+ .cards{
+   flex-direction: column;
+   width: 100%;
+ }
+
+ section{
+   flex-direction: column;
+ }
+
+ .card{
+   margin: 10px auto
+ }
+header ul li{
+  margin: 3px;
+}
+
+header ul{
+ flex-direction: column;
+}
+
+#auth{
+  top: 9%;
+  right: 12%;
+}
+
+#auth button{
+  padding: 2px;
+  font-size: 0.8rem;
+}
+}
+.bottom_navbar{
+  position:absolute;
+  left: 40%;
+
+  word-spacing: 0.5in;
+  padding-top:20px ;
+  padding-bottom: 50px;
+
+}
+.bottom_navbar a:hover {
+  color: white;
+   text-decoration:none;
+}
+.drive {
+  border-bottom: 1px solid gray;
+  }
+
+
+  #member-form{
+    padding: 30px;
+  }
+  #member-form > *{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px
+  }
+
+  #member-submit{
+    margin: 50px auto;
+  }

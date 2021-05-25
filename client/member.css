@@ -1,0 +1,28 @@
+.info{
+    text-align: center;
+    text-anchor: white;
+    margin: 100px auto;
+    border: white;
+    
+    text-transform: uppercase;
+    min-height: 100%;
+    height: auto;
+    box-sizing: border-box;
+    
+    }
+    
+    #mypassword{
+        color: red;
+    }
+    
+body {
+    margin-top: 200px;
+    padding-top: 120px;
+    background-image: url(../client/images/50.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+  }
+
+  
